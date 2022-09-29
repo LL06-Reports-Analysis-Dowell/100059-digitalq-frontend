@@ -4,15 +4,21 @@ import "./index.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import App from "./App";
+import { HashRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "../node_modules/@decathlon/react-table/dist/style/index.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+      <ToastContainer />
+    </HashRouter>
   </React.StrictMode>
 );
 

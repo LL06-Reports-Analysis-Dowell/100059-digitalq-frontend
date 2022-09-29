@@ -1,30 +1,18 @@
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import FirstScreen from "./screens/FirstScreen";
 import SecondScreen from "./screens/SecondScreen";
 import ThirdScreen from "./screens/ThirdScreen";
 import FourthScreen from "./screens/FourthScreen";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <FirstScreen />,
-  },
-  {
-    path: "/SecondScreen",
-    element: <SecondScreen />,
-  },
-  {
-    path: "/ThirdScreen",
-    element: <ThirdScreen />,
-  },
-  {
-    path: "/FourthScreen",
-    element: <FourthScreen />,
-  },
-]);
-
 function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <Routes>
+      <Route exact path="/" element={<FirstScreen />} />
+      <Route path="/SecondScreen" element={<SecondScreen />} />
+      <Route path="/ThirdScreen" element={<ThirdScreen />} />
+      <Route path="/FourthScreen" element={<FourthScreen />} />
+    </Routes>
+  );
 }
 
 export default App;

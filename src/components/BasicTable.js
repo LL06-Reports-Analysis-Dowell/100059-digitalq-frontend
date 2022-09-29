@@ -17,7 +17,7 @@ function BasicTable() {
   }, []);
 
   const columns = useMemo(() => COLUMNS, []);
-  const data = useMemo(() => order, []);
+  const data = useMemo(() => MOCK_DATA, []);
 
   const tableInstance = useTable({
     columns,
