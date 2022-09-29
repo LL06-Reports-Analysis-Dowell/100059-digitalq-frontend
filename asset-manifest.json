@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/css/main.1f533d19.css",
-    "main.js": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/js/main.8dc4e3a4.js",
+    "main.js": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/js/main.0e2c899e.js",
     "static/js/787.7efd31bd.chunk.js": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/js/787.7efd31bd.chunk.js",
     "static/media/cardImage.png": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/media/cardImage.18de07683ffe87a67cd8.png",
     "static/media/do1.png": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/media/do1.246740eead5bcc6ba567.png",
@@ -34,11 +34,11 @@
     "static/media/slick.woff": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/index.html",
     "main.1f533d19.css.map": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/css/main.1f533d19.css.map",
-    "main.8dc4e3a4.js.map": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/js/main.8dc4e3a4.js.map",
+    "main.0e2c899e.js.map": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/js/main.0e2c899e.js.map",
     "787.7efd31bd.chunk.js.map": "/LL06-Reports-Analysis-Dowell.github.io/100059-digitalq-frontend/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f533d19.css",
-    "static/js/main.8dc4e3a4.js"
+    "static/js/main.0e2c899e.js"
   ]
 }
