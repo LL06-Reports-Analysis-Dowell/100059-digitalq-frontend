@@ -7,7 +7,7 @@ import App from "./App";
 import { HashRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "../node_modules/@decathlon/react-table/dist/style/index.css";
-import { ToastContainer, toast } from "react-toastify";
+
 import "react-toastify/dist/ReactToastify.css";
 
 import reportWebVitals from "./reportWebVitals";
@@ -17,7 +17,6 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       <App />
-      <ToastContainer />
     </HashRouter>
   </React.StrictMode>
 );
